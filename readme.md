@@ -1,5 +1,5 @@
 # Introduction to Economic Growth
-These are the support files for Chad Jones' and Dietrich Vollrath's \textit{Introduction to Economic Growth}, 4th Edition.
+These are the support files for Chad Jones' and Dietrich Vollrath's *Introduction to Economic Growth*, 4th Edition. 
 
 1. Code. These are python scripts that produce figures for the book (both data plots and function plots) as well as tables. File names are descriptive (e.g. Book_Ch3_Fig1.py produces Chapter 3 Figure 1). There is a common library of functions in "Book_Functions.py" that solves models or opens and prepares datasets that are reused.
 
