@@ -1,0 +1,50 @@
+\documentclass[10pt, xcolor=dvipsnames]{beamer}
+%\documentclass[10pt, xcolor=dvipsnames,notes=only]{beamer}
+%\mode<presentation>
+%{
+\usetheme{Goettingen}
+%\setbeamercovered{transparent}
+%} 
+\usefonttheme{professionalfonts}
+%\usecolortheme{beaver}
+
+\usepackage{setspace}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bm}
+\usepackage{rotating}
+\usepackage{ccaption}
+\usepackage{booktabs}
+\usepackage{lscape}
+\usepackage{colortbl}
+\usepackage{arydshln}
+\usepackage{tabularx}
+\usepackage{graphics}
+\usepackage{epstopdf}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{items}[balls]
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}}
+
+\setbeamercolor{block title}{fg=white, bg=teal}
+\setbeamercolor{block body}{bg=teal!25}
+
+\author[]{Chad Jones and Dietrich Vollrath}
+\institute[Intro Growth]{Introduction to Economic Growth}
+\date[]{}
